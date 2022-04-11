@@ -18,6 +18,7 @@
         {
             AccountType = accountType;
             this.openingBalance = openingBalance;
+            Balance = openingBalance;
 
             AccountTransactions = new List<AccountTransaction>();
         }
